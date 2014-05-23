@@ -37,7 +37,7 @@ var VolcanoController = {
       });
 	},
 	
-	create: function(req, res, next) {
+/*	create: function(req, res, next) {
 		var params = req.params.all();
 		Volcano.create(params, function(err, volcano) {
 
@@ -48,7 +48,7 @@ var VolcanoController = {
 			res.json(volcano);
 
 		});
-	}
+	}*/
 
 };
  

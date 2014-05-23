@@ -9,10 +9,11 @@
 module.exports = {
 	tableName: 'vd',
 	adapter: 'mysql',
+	migrate: 'safe',
 
 	config: {
 		host: 'wovodat.org',
-		port: '3307',
+		port: 3307,
 		user: 'wovodat_view',
 		password: '+00World',
 		database: 'wovodat'
