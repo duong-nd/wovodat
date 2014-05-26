@@ -35,15 +35,7 @@ module.exports.adapters = {
   
   // MySQL is the world's most popular relational database.
   // Learn more: http://en.wikipedia.org/wiki/MySQL
-  myLocalMySQLDatabase: {
-
-    module: 'sails-mysql',
-	host: 'wovodat.org',
-	port: '3307',
-	user: 'wovodat_view',
-	password: '+00World',
-	database: 'test'
+  
     // Psst.. You can put your password in config/local.js instead
     // so you don't inadvertently push it up if you're using version control
-  }
 };

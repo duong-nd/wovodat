@@ -27,13 +27,9 @@ var VolcanoController = {
 	
 	console.log(options);
 	Volcano.find(options, function(err, Volcano) {
-
           if(Volcano === undefined) return res.notFound();
-
           if (err) return next(err);
-
           res.json(Volcano);
-
       });
 	},
 	
